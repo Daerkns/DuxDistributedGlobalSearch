@@ -43,7 +43,7 @@ def search_duckduckgo(
 # Example use:
 if __name__ == "__main__":
     data = search_duckduckgo(
-        query="Dan brown works",
+        query="intitle:Chowdhury Nafeez Sarafat",
         max_results=5,
         region="wt-wt",
         safesearch="off",
