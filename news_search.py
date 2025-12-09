@@ -11,7 +11,7 @@ def search_duckduckgo_news(
     backend="api",           # "api" | "html" | "lite"
     max_page=3,              # How many result pages to crawl
     follow_redirects=True,
-    delay=1.0,               # Delay between requests
+    delay=2.0,               # Delay between requests
     output="list",           # "list" | "generator"
 ):
     """

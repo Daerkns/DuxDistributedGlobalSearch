@@ -43,12 +43,12 @@ def search_duckduckgo(
 # Example use:
 if __name__ == "__main__":
     data = search_duckduckgo(
-        query="intitle:Chowdhury Nafeez Sarafat",
-        max_results=5,
+        query="intitle:Manjur Mahamud Datasoft",
+        max_results=10,
         region="wt-wt",
         safesearch="off",
         timelimit="m",
-        backend="html",
+        backend="auto",
         output="list"
     )
 
