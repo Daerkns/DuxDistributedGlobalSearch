@@ -96,18 +96,19 @@ def search_duckduckgo(
 # Example use:
 if __name__ == "__main__":
     # Example 1: Fixed results mode (will cache on first run)
-    print("=" * 60)
-    print("EXAMPLE 1: Fixed Results Mode (ON)")
-    print("=" * 60)
+    #print("=" * 60)
+    #print("EXAMPLE 1: Fixed Results Mode (ON)")
+    #Sprint("=" * 60)
     data = search_duckduckgo(
-        query="intitle:Manjur Mahamud Datasoft",
+        #query="intitle:Manjur Mahmud Datasoft Bangladesh",
+        query="Bangladesh political News",
         max_results=10,
         region="wt-wt",
         safesearch="off",
-        timelimit="m",
+        timelimit="w",
         backend="auto",
         output="list",
-        fixed_results=True  # Toggle ON for fixed results
+        fixed_results=False  # Toggle ON for fixed results
     )
 
     for item in data:
@@ -126,7 +127,7 @@ if __name__ == "__main__":
     print("EXAMPLE 2: Normal Mode (OFF)")
     print("=" * 60)
     data = search_duckduckgo(
-        query="intitle:Manjur Mahamud Datasoft",
+        query="intitle:Manjur Mahmud Datasoft",
         max_results=10,
         region="wt-wt",
         safesearch="off",
