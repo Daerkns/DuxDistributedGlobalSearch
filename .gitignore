@@ -218,4 +218,4 @@ __marimo__/
 # custom
 .search_cache
 .search_cache/
-
+.json
